@@ -1,0 +1,26 @@
+[ai_design_14]
+[uniq_id]
+0
+[resources]
+<font>
+<color>
+<linestyle>
+<image>
+<layer>
+{electrical}
+{vis}
+{borderannotation}
+{probe}
+<style>
+[sch_type]
+<inst>
+buck1
+/
+sch
+@sheet sheet1
+x x_597_ 20  {-160 0 -160 1120 3200 5280 7360 3040 } {GrProbe:CreateProc GrProbe:BindProc GrProbe:CoordsProc GrProbe:DeleteProc GrProbe:MoveProc GrProbe:SelectProc GrProbe:DeselectProc GrProbe:HideProc GrProbe:ShowProc GrProbe:SaveProc} {buck1.tr n_1 {} {0 0 0 0 real(y)} {{AxisY(0,0) AxisX(0)} {{linear (V) {-298.16815185547 2.2606434822083} auto linear t(s) {0.0 0.059999998658895} auto}}} {{-family {OF Helvetica} -size 6.680308 -weight normal -slant roman -underline 0 -overstrike 0 -type outline} no 1} 1 across}
+x x_598_ 20  {-3200 1760 -2240 1760 -5600 6400 -2240 3840 } {GrProbe:CreateProc GrProbe:BindProc GrProbe:CoordsProc GrProbe:DeleteProc GrProbe:MoveProc GrProbe:SelectProc GrProbe:DeselectProc GrProbe:HideProc GrProbe:ShowProc GrProbe:SaveProc} {buck1.tr n_11 n_25 {0 0 0 0 real(y)} {{AxisY(0,0) AxisX(0)} {{linear (V) {-2.2586975097656 306.11709594727} auto linear t(s) {0.0 0.059999998658895} auto}}} {{-family {OF Helvetica} -size 6.680308 -weight normal -slant roman -underline 0 -overstrike 0 -type outline} no 1} 1 across}
+x x_599_ 20  {-2240 1760 -1280 1760 -1600 6432 1600 3840 } {GrProbe:CreateProc GrProbe:BindProc GrProbe:CoordsProc GrProbe:DeleteProc GrProbe:MoveProc GrProbe:SelectProc GrProbe:DeselectProc GrProbe:HideProc GrProbe:ShowProc GrProbe:SaveProc} {buck1.tr n_25 n_46 {0 0 0 0 real(y)} {{AxisY(0,0) AxisX(0)} {{linear (V) {-306.11645507813 2.2587280273438} auto linear t(s) {0.0 0.059999998658895} auto}}} {{-family {OF Helvetica} -size 6.680308 -weight normal -slant roman -underline 0 -overstrike 0 -type outline} no 1} 1 across}
+x x_602_ 20  {-160 0 -160 -960 4160 1760 7680 -800 } {GrProbe:CreateProc GrProbe:BindProc GrProbe:CoordsProc GrProbe:DeleteProc GrProbe:MoveProc GrProbe:SelectProc GrProbe:DeselectProc GrProbe:HideProc GrProbe:ShowProc GrProbe:SaveProc} {buck1.tr n_1 sw_vcsp.sw_vcsp3/p {0 0 0 0 real(y)} {{AxisY(0,0) AxisX(0)} {{linear (V) {-298.16815185547 2.2606434822083} auto linear t(s) {0.0 0.059999998658895} auto}}} {{-family {OF Helvetica} -size 6.680308 -weight normal -slant roman -underline 0 -overstrike 0 -type outline} no 1} 1 across}
+[simulator_type]
+saber

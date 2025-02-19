@@ -1,0 +1,94 @@
+program                Saber
+release                2012.12.0.0-5.10 Build 26 on 15-Nov-2012 Copyright (c) 1985-2012, Synopsys, Inc.
+source_file            forward
+created                Sat Nov 26 20:01 2022
+data_file              forward.dcerr.i2
+format                 binary
+precision              double
+npoints                1
+ncolumns               17
+machine_id             1001
+parameter._version_id  940301
+parameter._tbl_id      1669492918
+ynames
+ xfrl3.xfrl3_1/i(l.l1)
+ xfrl3.xfrl3_1/i(l.l2)
+ xfrl3.xfrl3_1/i(l.l3)
+ agnd
+ n_1
+ n_10
+ n_13
+ n_3
+ n_4
+ n_6
+ n_7
+ n_78
+ n_9
+ c.c2/pm
+ c.c3/pm
+ d.d1/pi
+ d.d2/pi
+ d.d3/pi
+ i(l.l1)
+ i(v_sin.v_sin1)
+ iam(ide_d2an.clock_l4_1_clock)
+ 0
+yunits
+ i
+ i
+ i
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ i
+ i
+ i
+ <unnamed>
+yproperty.column
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+ 10
+ 11
+ 12
+ 13
+ 5
+ 6
+ 10
+ 9
+ 13
+ 14
+ 15
+ 16
+ 17
+unit.i
+ A
+ Amperes
+ Current
+unit.v
+ V
+ Volts
+ Voltage
+unit.<unnamed>
+ -
+ -
+ -
+parameter.time         0

@@ -1,0 +1,20 @@
+################################################################################
+#                                                                              #
+#  Saber netlist for design flyback                                            #
+#  Created by the Saber Integration Toolkit 2012.12.0.0-4.0 of Synopsys, Inc.      #
+#  Created on Sat Nov 26 20:11:35 2022.                                        #
+#                                                                              #
+################################################################################
+
+
+################################################################################
+#                                                                              #
+#  Instances found in the top level of design flyback                          #
+#                                                                              #
+################################################################################
+
+v_sin.v_sin1 p:n_5 m:n_6 = ac_phase=0, frequency=50, amplitude=300, ac_mag=1
+c.c1 p:n_5 m:n_6 = c=4.4u
+c.c2 p:n_4 m:n_3 = c=4.4u
+xfrl2.xfrl2_1 pp:n_5 pm:n_6 sp:n_4 sm:n_2 = lp=100u, ns=25, np=50, ls=100u
+d.d1 n:n_3 p:n_2 

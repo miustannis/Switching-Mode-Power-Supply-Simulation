@@ -1,0 +1,57 @@
+program                Saber
+release                2012.12.0.0-5.10 Build 26 on 15-Nov-2012 Copyright (c) 1985-2012, Synopsys, Inc.
+source_file            flyback
+created                Sat Nov 26 20:11 2022
+data_file              flyback.dcerr.i2
+format                 binary
+precision              double
+npoints                1
+ncolumns               8
+machine_id             1001
+parameter._version_id  940301
+parameter._tbl_id      1669493496
+ynames
+ xfrl2.xfrl2_1/i(l.lp)
+ xfrl2.xfrl2_1/i(l.ls)
+ n_2
+ n_3
+ n_4
+ n_5
+ n_6
+ c.c1/pm
+ c.c2/pm
+ i(v_sin.v_sin1)
+ d.d1/pi
+yunits
+ i
+ i
+ v
+ v
+ v
+ v
+ v
+ v
+ v
+ i
+ v
+yproperty.column
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 6
+ 5
+ 8
+ 3
+unit.i
+ A
+ Amperes
+ Current
+unit.v
+ V
+ Volts
+ Voltage
+parameter.time         0

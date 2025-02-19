@@ -1,0 +1,30 @@
+program                Saber
+release                2012.12.0.0-5.10 Build 26 on 15-Nov-2012 Copyright (c) 1985-2012, Synopsys, Inc.
+source_file            buck1
+created                Fri Nov 18 15:23 2022
+data_file              buck1.tr.d2
+format                 binary
+events_file            buck1.tr.d3
+events.format          binary
+events.record_size     0
+events.precision       double
+byte_order             little_endian
+fp_format              ieee
+machine_id             1001
+parameter._version_id  940301
+parameter._tbl_id      1668785009
+command                dctranalysis
+tag._stress
+tag._ipextract
+tag._fourier
+tag._delay
+xname                  t
+xunits                 _time
+unit._time
+ s
+ Seconds
+ Time
+ncolumns               50
+sproperty.xbegin       0000000000000000=0
+sproperty.xend         3FAEB851EB851EB8=0.06
+npoints                107409

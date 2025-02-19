@@ -1,0 +1,87 @@
+################################################################################
+#                                                                              #
+#  Saber netlist for design buck1                                              #
+#  Created by the Saber Integration Toolkit 2012.12.0.0-4.0 of Synopsys, Inc.      #
+#  Created on Fri Nov 18 15:23:27 2022.                                        #
+#                                                                              #
+################################################################################
+
+
+################################################################################
+#                                                                              #
+#  Instances found in the top level of design buck1                            #
+#                                                                              #
+################################################################################
+
+ide_d2an.cmp1_l4_2_out a:d d:d_cmp1_l4_2_out m:0 
+ide_a2dn.inv_l4_2_in a:d d:d_inv_l4_2_in m:0 
+ide_d2an.buf_l4_3_out a:@"1-d" d:@"1-d_buf_l4_3_out" m:0 
+ide_a2dn.or2_l4_6_in2 a:d d:d_or2_l4_6_in2 m:0 
+ide_d2an.or2_l4_6_out a:S1a d:S1a_or2_l4_6_out m:0 
+ide_d2an.cmp1_l4_1_out a:n_54 d:n_54_cmp1_l4_1_out m:0 
+ide_d2an.or2_l4_5_out a:S2a d:S2a_or2_l4_5_out m:0 
+ide_a2dn.or2_l4_5_in1 a:@"1-d" d:@"1-d_or2_l4_5_in1" m:0 
+ide_a2dn.buf_l4_1_in a:n_54 d:n_54_buf_l4_1_in m:0 
+ide_a2dn.or2_l4_3_in2 a:n_54 d:n_54_or2_l4_3_in2 m:0 
+ide_d2an.or2_l4_2_out a:S2b d:S2b_or2_l4_2_out m:0 
+ide_a2dn.or2_l4_2_in1 a:@"1-d" d:@"1-d_or2_l4_2_in1" m:0 
+ide_a2dn.or2_l4_1_in2 a:d d:d_or2_l4_1_in2 m:0 
+ide_d2an.or2_l4_1_out a:S1b d:S1b_or2_l4_1_out m:0 
+ide_a2dn.inv_l4_1_in a:n_54 d:n_54_inv_l4_1_in m:0 
+sw_vcsp.sw_vcsp1 p:n_46 m:n_25 vp:S1b vm:0 = \
+        model=model(sw_vcsp.sw_vcsp1)<-(von=1,voff=0,ron=0.01,roff=10meg)
+c.c1 p:n_11 m:n_25 = c=1n
+c.c2 p:n_46 m:n_25 = c=1n
+pwld.pwld1 p:n_1 m:0 = von=0.001
+c.c3 p:n_479 m:n_1 = c=1n
+l.l1 p:n_32 m:n_475 = l=300u, model=model(l.l1)<-(tc1=0.0,tc2=0.0)
+v_sin.v_sin1 p:n_473 m:0 = ac_phase=0, frequency=50, amplitude=300, ac_mag=1
+c.c4 p:0 m:n_1 = c=1n
+sw_vcsp.sw_vcsp2 p:n_1 m:n_479 vp:S2a vm:0 = \
+        model=model(sw_vcsp.sw_vcsp2)<-(von=1,voff=0,ron=0.01,roff=10meg)
+pwld.pwld2 p:n_25 m:n_11 = von=0.001
+pwld.pwld3 p:n_25 m:n_46 = von=0.001
+c.c5 p:0 m:n_512 = c=4.4u
+sw_vcsp.sw_vcsp3 p:0 m:n_1 vp:S2b vm:0 = \
+        model=model(sw_vcsp.sw_vcsp3)<-(von=1,voff=0,ron=0.01,roff=10meg)
+pwld.pwld4 p:n_1 m:n_479 = von=0.001
+r.r2 p:n_46 m:n_32 = rnom=0.1
+sw_vcsp.sw_vcsp4 p:n_25 m:n_11 vp:S1a vm:0 = \
+        model=model(sw_vcsp.sw_vcsp4)<-(von=1,voff=0,ron=0.01,roff=10meg)
+r.r3 p:n_476 m:n_19 = rnom=0.1
+inv_l4.inv_l4_1 out:n_67 in:n_54_inv_l4_1_in 
+v_dc.v_dc1 p:n_68 m:0 = dc_value=15
+r.r4 p:n_63 m:0 = rnom=2.5k
+or2_l4.or2_l4_1 in1:P out:S1b_or2_l4_1_out in2:d_or2_l4_1_in2 
+v_dc.v_dc2 p:0 m:n_72 = dc_value=15
+or2_l4.or2_l4_2 in1:@"1-d_or2_l4_2_in1" out:S2b_or2_l4_2_out in2:P 
+or2_l4.or2_l4_3 in1:n_86 out:P in2:n_54_or2_l4_3_in2 
+buf_l4.buf_l4_1 out:n_86 in:n_54_buf_l4_1_in = tphl=10u, tplh=10u
+buf_l4.buf_l4_2 out:n_62 in:n_67 = tphl=10u, tplh=10u
+or2_l4.or2_l4_4 in1:n_67 out:N in2:n_62 
+or2_l4.or2_l4_5 in1:@"1-d_or2_l4_5_in1" out:S2a_or2_l4_5_out in2:N 
+cmp1_l4.cmp1_l4_1 vee:n_72 vcc:n_68 inp:n_63 gnd:0 inm:0 \
+        out:n_54_cmp1_l4_1_out 
+or2_l4.or2_l4_6 in1:N out:S1a_or2_l4_6_out in2:d_or2_l4_6_in2 
+r.r5 p:n_510 m:n_63 = rnom=1997.5k
+r.r6 p:n_68 m:n_54 = rnom=1.5k
+r.r7 p:n_54 m:0 = rnom=20k
+v_dc.v_dc3 p:0 m:n_99 = dc_value=15
+buf_l4.buf_l4_3 out:@"1-d_buf_l4_3_out" in:n_106 = tphl=0, tplh=100n
+r.r8 p:n_97 m:d = rnom=1.5k
+r.r9 p:d m:0 = rnom=20k
+r.r10 p:@"1-d" m:0 = rnom=200k
+vtri.vtri1 p:n_101 m:0 = period=20u, ampl=5, rtime=10u
+inv_l4.inv_l4_2 out:n_106 in:d_inv_l4_2_in 
+cmp1_l4.cmp1_l4_2 vee:n_99 vcc:n_97 inp:n_113 gnd:0 inm:n_101 \
+        out:d_cmp1_l4_2_out 
+v_dc.v_dc4 p:n_97 m:0 = dc_value=15
+v_dc.v_dc6 p:n_113 m:0 = dc_value=-1
+r.r11 p:n_548 m:0 = rnom=500
+short.short8 p:n_475 m:n_476 
+short.short12 p:n_32 m:n_479 
+short.short11 p:n_473 m:n_510 
+l.l2 p:n_510 m:n_11 = l=300u
+c.c6 p:0 m:n_11 = c=4.4u
+short.short5 p:n_19 m:n_512 
+short.short7 p:n_19 m:n_548 

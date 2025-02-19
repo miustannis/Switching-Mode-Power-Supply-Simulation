@@ -1,0 +1,27 @@
+################################################################################
+#                                                                              #
+#  Saber netlist for design forward                                            #
+#  Created by the Saber Integration Toolkit 2012.12.0.0-4.0 of Synopsys, Inc.      #
+#  Created on Sat Nov 26 20:01:56 2022.                                        #
+#                                                                              #
+################################################################################
+
+
+################################################################################
+#                                                                              #
+#  Instances found in the top level of design forward                          #
+#                                                                              #
+################################################################################
+
+ide_d2an.clock_l4_1_clock a:n_78 d:n_78_clock_l4_1_clock m:0 
+v_sin.v_sin1 p:n_1 m:n_4 = ac_phase=0, frequency=50, amplitude=300, ac_mag=1
+xfrl3.xfrl3_1 p1:n_6 m1:n_9 p2:n_1 m2:n_13 p3:n_3 m3:n_1 = n3=10, n2=25, n1=50, \
+        l3=10u, l2=10u, l1=10u
+d.d1 n:n_7 p:n_6 
+d.d2 n:n_3 p:n_4 
+d.d3 n:n_7 p:n_9 
+l.l1 p:n_7 m:n_10 = l=100u
+c.c2 p:n_1 m:n_4 = c=4.4u
+c.c3 p:n_10 m:n_9 = c=4.4u
+clock_l4.clock_l4_1 clock:n_78_clock_l4_1_clock = freq=200k
+sps.sps1 p:n_4 vm:n_78 m:n_13 vp:agnd 

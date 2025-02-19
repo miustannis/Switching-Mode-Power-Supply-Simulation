@@ -1,0 +1,11 @@
+[ai_design_14]
+cell v_sin {} primitive {v_sin1} v_sin_2_ p(n_1) m(n_4) 
+cell xfrl3 {} primitive {xfrl3_1} xfrl3_4_ p1(n_6) m1(n_9) p2(n_1) m2(n_13) p3(n_3) m3(n_1) 
+cell d {} primitive {d1} d_6_ n(n_7) p(n_6) 
+cell d {} primitive {d2} d_8_ n(n_3) p(n_4) 
+cell d {} primitive {d3} d_10_ n(n_7) p(n_9) 
+cell l {} primitive {l1} lh_12_ p(n_7) m(n_10) 
+cell c {} primitive {c2} c_16_ p(n_1) m(n_4) 
+cell c {} primitive {c3} c_18_ p(n_10) m(n_9) 
+cell clock_l4 {} primitive {clock_l4_1} clock_l4_55_ clock(n_78) 
+cell sps {} primitive {sps1} sps_69_ p(n_4) vm(n_78) m(n_13) vp(agnd) 

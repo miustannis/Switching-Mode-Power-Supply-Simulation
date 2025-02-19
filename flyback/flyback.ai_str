@@ -1,0 +1,6 @@
+[ai_design_14]
+cell v_sin {} primitive {v_sin1} v_sin_0_ p(n_5) m(n_6) 
+cell c {} primitive {c1} c_2_ p(n_5) m(n_6) 
+cell c {} primitive {c2} c_4_ p(n_4) m(n_3) 
+cell xfrl2 {} primitive {xfrl2_1} xfrl2_6_ pp(n_5) pm(n_6) sp(n_4) sm(n_2) 
+cell d {} primitive {d1} d_8_ n(n_3) p(n_2) 
